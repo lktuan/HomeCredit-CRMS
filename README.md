@@ -9,7 +9,11 @@ Found the **HomeCredit - Credit Risk Model Stability** competition through a [po
 ## Project structure
 
 ```bash
-tree
+├───data
+├───models
+├───notebooks
+├───reports
+└───src
 ```
 
 ## Status: initiated 🚀
