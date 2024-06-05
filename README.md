@@ -6,4 +6,12 @@ Found the **HomeCredit - Credit Risk Model Stability** competition through a [po
 
 **Link to competition**: https://www.kaggle.com/competitions/home-credit-credit-risk-model-stability/overview
 
+## Project structure
+
+```bash
+tree
+```
+
 ## Status: initiated 🚀
+
+
