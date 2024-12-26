@@ -1,0 +1,22 @@
+[project]
+# https://docs.astral.sh/uv/concepts/projects/config/
+name = "HC_CRMS"
+version = "0.1.0"
+description = "My attemp on the Credit Risk Model Stability by Home Credit"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "kaggle>=1.6.17",
+    "ipykernel>=6.29.5",
+    "pip>=24.3.1",
+    "pandas>=2.2.3",
+    "scikit-learn>=1.6.0",
+    "polars>=1.18.0"
+    ]
+
+[dependency-groups]
+dev = ["pytest>=8.3.4", "ruff>=0.8.4"]
+
+[tool.ruff]
+# https://docs.astral.sh/ruff/configuration/
+target-version = "py311"
