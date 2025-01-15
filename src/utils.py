@@ -1,8 +1,8 @@
 import glob
 import polars as pl
 
-from aggregator import Aggregator
-from pipeline import Pipeline
+from .aggregator import Aggregator
+from .pipeline import Pipeline
 
 # File I/O
 def read_file(path, depth=None):

@@ -2,7 +2,7 @@ from pathlib import Path
 
 from utils import read_file, read_files
 
-ROOT            = Path("/kaggle/input/home-credit-credit-risk-model-stability")
+ROOT            = Path("./data")
 TRAIN_DIR       = ROOT / "parquet_files" / "train"
 TEST_DIR        = ROOT / "parquet_files" / "test"
 
